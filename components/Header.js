@@ -39,7 +39,6 @@ const Header = () => {
           <input
             type='text'
             ref={searchRef}
-            value={router.query.term}
             className='bg-transparent w-full flex-grow outline-none '
           />
           <XIcon

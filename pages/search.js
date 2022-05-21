@@ -28,7 +28,7 @@ const Search = ({ results }) => {
 export default Search;
 
 export const getServerSideProps = async (context) => {
-  const dummyData = true;
+  const dummyData = false;
   const startIndex = context.query.satrt || '0';
 
   const data = dummyData
