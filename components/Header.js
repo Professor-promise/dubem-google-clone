@@ -40,6 +40,7 @@ const Header = () => {
             type='text'
             ref={searchRef}
             className='bg-transparent w-full flex-grow outline-none '
+            defaultValue={router.query.term}
           />
           <XIcon
             className='h-7  px-1 cursor-pointer'
