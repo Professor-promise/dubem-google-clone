@@ -60,7 +60,7 @@ export default function Home() {
             <Button btnText={`I'm Feeling Lucky`} />
           </div>
           <div className='flex space-x-2 items-center text-sm text-[#353739]'>
-            <p>Google offered in:</p>
+            <p className='hidden sm:inline-block'>Google offered in:</p>
             <Languages />
           </div>
         </form>
